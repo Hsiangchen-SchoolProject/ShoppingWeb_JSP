@@ -1,0 +1,317 @@
+﻿.namefont-1
+{
+  font:inherit;
+  font-weight: 400;
+  font-style: normal; 
+  font-family: "Open Sans","segoe ui","microsoft jhenghei","microsoft mhei",stheititc,sans-serif;
+  font-size: 20px;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  display: block;
+  text-shadow: none;
+  color: #828282;
+}
+
+.namefont-2
+{
+  font:inherit;
+  font-weight: 400;
+  font-style: normal;  
+  font-family: "Open Sans","segoe ui","microsoft jhenghei","microsoft mhei",stheititc,sans-serif;
+  font-size: 16px;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  display: block;
+  text-shadow: none;
+  color: #828282;
+}
+
+.contentfont
+{
+  font:inherit;
+  font-weight: 400;
+  font-style: normal;  
+  font-family: "Open Sans","segoe ui","microsoft jhenghei","microsoft mhei",stheititc,sans-serif;
+  font-size: 18px;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  display: block;
+  text-shadow: none;
+  color: white;
+}
+
+.namebutton
+{
+  width: 50%;
+  height: 5%;
+  background-color:#00FFFF;
+  border-radius:5px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:16px;
+  padding:3px 3px 3px 3px; 
+  text-decoration:none;
+  text-shadow:0px 0px 0px 0px;
+}
+
+.right-mall
+{
+  position: fixed;
+  padding: 1em 1em 1em 1em;
+  right: 0px; bottom: 20%;
+  width:5%; height:auto;
+  border-radius:1em 1em 1em 1em; 
+  border-top-left-radius:1em; - 設定左上角
+  border-top-right-radius:1em; - 設定右上角
+  border-bottom-right-radius:1em; - 設定右下角
+  border-bottom-left-radius:1em; - 設定左下角
+}
+
+.all
+{
+  font:inherit;
+  font-style: inherit;
+  font-weight: inherit;  
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0 auto; padding: 0; border: 0; outline: 0;
+  width: 80%;
+  background-repeat:no-repeat;
+  background-size: cover;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  display: block;
+  text-shadow: none;
+}
+
+#header
+{
+  color: white;
+  margin:0 auto;
+  height: 100px;
+  font-family: '微軟正黑體','新細明體','Arial Unicode MS';
+  font-size: 18px;
+  margin-bottom: 5px;
+  background-color:#000;
+}
+
+}
+.menubox
+{
+  margin-right: 60px;
+}
+.menupic
+{
+  margin-right: 60px;
+  margin-top: 15px;
+  margin-left: 20px;
+  float: left;
+}
+.logopic
+{
+  height: 80px;
+}
+.menutxt
+{
+  margin-top: 35px;
+  float: left;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+.signtxt
+{
+   
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 35px;
+  font-size: 16px;
+}
+.menustyle
+{
+  font-weight:bold;
+  display:block;
+  padding:2px;
+  border-bottom:2px solid white;
+  color:white;
+
+}
+.menustyle:hover 
+{
+  border-bottom:2px solid #04e;
+  text-decoration:none;
+  color::#04e;
+
+}
+.sec-block
+{
+  width: 100%;
+  color: white;
+  height: auto;
+  padding: 1em;
+  margin-bottom: 1%;
+}
+
+.space-2
+{
+    width: 5%;
+    height: 35em;
+    padding: 1em;
+    float: left;
+    margin-bottom: 1%;
+}
+
+.photo
+{
+    width: 50%;
+    height: 35em;
+    padding: 1em;
+    float: left;
+    margin-bottom: 1%;
+    background-color:black; 
+}
+
+.name
+{
+    width: 30%;
+    height: 35em;
+    float: left;
+    margin-bottom: 1%;
+}
+
+.content
+{
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  clear: both;
+  background-color:#ABABAB;
+  color: white;
+  margin-bottom: 1%;
+}
+
+.comment
+{
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  clear: both;
+  background-color:#ABABAB;
+  color: white;
+  margin-bottom: 1%;
+}
+
+.foot
+{
+  color: white;
+  margin:0 auto;
+  height: auto;
+  font-family: '微軟正黑體','新細明體','Arial Unicode MS';
+  font-size: 16px;
+  padding: 1em 2em 1em 2em;
+  background-color:#828282;
+}
+
+.photo-image
+{
+  width: 40%;
+
+  padding: 3em 3em 3em 3em;
+}
+.photo-image:hover
+{
+  width: 65%;
+  padding: 3em 3em 3em 3em;
+  transition: all 0.8s;
+}
+
+.content-image
+{
+  width: 80%;
+  height: 80%;
+}
+
+.sec-image
+{
+  width: 80%;
+  height: 30%;
+}
+
+.form1
+{
+  width: 60%;
+
+  padding: 1em 1em 1em 1em;
+  text-align: center;
+  border-radius:5px;
+  border:1px solid #ffffff;
+  margin: 0 auto;
+}
+
+.comment-tb
+{
+  color: white;
+  background-color: #0069d9;
+  text-decoration: none;
+  font-weight: 300;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Open Sans","segoe ui","microsoft jhenghei","microsoft mhei",stheititc,sans-serif;
+  border-radius: 1em;
+  width: 40%;
+}
+
+.nvidiastyle
+{
+  font-weight:bold;
+  display:block;
+  padding:2px;
+  border-bottom:2px solid white;
+  color:white;
+}
+.nvidiastyle:hover 
+{
+  border-bottom:2px solid #59FF59;
+  text-decoration:none;color:#59FF59;
+}
+
+.amdstyle
+{
+  font-weight:bold;
+  display:block;
+  padding:2px;
+  border-bottom:2px solid white;
+  color:white;
+}
+.amdstyle:hover 
+{
+  border-bottom:2px solid #FF5959;
+  text-decoration:none;color:#FF5959;
+}
+
+.formfont
+{
+  width: 100%;
+  padding: 1em;
+  font-size: 16px;
+  line-height: 1;
+  border: 1px solid black;
+  border-radius: 1em;
+  display: block;
+  font-weight: 300;
+}

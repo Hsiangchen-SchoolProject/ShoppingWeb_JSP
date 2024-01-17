@@ -1,0 +1,139 @@
+﻿.namefont
+{
+  font:inherit;
+  font-weight: 400;
+  font-style: normal; 
+  font-family: "Open Sans","segoe ui","microsoft jhenghei","microsoft mhei",stheititc,sans-serif;
+  font-size: 20px;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  display: block;
+  text-shadow: none;
+  color: #4F4FFF;
+  font-weight:bold;
+}
+
+.contentfont
+{
+  font:inherit;
+  font-weight: 400;
+  font-style: normal; 
+  font-family: "Open Sans","segoe ui","microsoft jhenghei","microsoft mhei",stheititc,sans-serif;
+  font-size: 16px;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  display: block;
+  text-shadow: none;
+  color: #828282;
+  font-weight:bold;
+}
+
+#header
+{
+  color: white;
+  margin:0 auto;
+  height: 100px;
+  font-family: '微軟正黑體','新細明體','Arial Unicode MS';
+  font-size: 18px;
+  margin-bottom: 5px;
+  background-color:#000;
+}
+
+}
+.menubox
+{
+  margin-right: 60px;
+}
+.menupic
+{
+  margin-right: 60px;
+  margin-top: 15px;
+  margin-left: 20px;
+  float: left;
+}
+.logopic
+{
+  height: 80px;
+}
+.menutxt
+{
+  margin-top: 35px;
+  float: left;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+.signtxt
+{
+   
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 35px;
+  font-size: 16px;
+}
+.menustyle
+{
+  font-weight:bold;
+  display:block;
+  padding:2px;
+  border-bottom:2px solid white;
+  color:white;
+    text-decoration:none;
+
+}
+.menustyle:hover 
+{
+  border-bottom:2px solid #04e;
+  text-decoration:none;
+  color::#04e;
+
+}
+.formblock
+{
+
+    height: 25em;
+    padding: 1em;
+    margin-bottom: 1%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#asid1
+{
+  color: white;
+  background: black;
+  height: 50px;
+  clear: both;
+}
+
+.formfont
+{
+  width: 40%;
+  padding: 1em;
+  font-size: 16px;
+  line-height: 1;
+  border: 1px solid black;
+  border-radius: 1rem;
+  display: block;
+  font-weight: 300;
+}
+
+.namebt
+{
+  color: white;
+  background-color: #0069d9;
+  text-decoration: none;
+  font-weight: 600;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Open Sans","segoe ui","microsoft jhenghei","microsoft mhei",stheititc,sans-serif;
+  border-radius: 1em;
+  width: 400px;
+  height: 40%;
+}

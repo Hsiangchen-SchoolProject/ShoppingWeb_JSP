@@ -1,0 +1,316 @@
+﻿#header
+{
+  color: white;
+  margin:0 auto;
+  height: 100px;
+  font-family: '微軟正黑體','新細明體','Arial Unicode MS';
+  font-size: 18px;
+  margin-bottom: 5px;
+  background-color:#000;
+}
+
+}
+.menubox
+{
+  margin-right: 60px;
+}
+.menupic
+{
+  margin-right: 60px;
+  margin-top: 15px;
+  margin-left: 20px;
+  float: left;
+}
+.logopic
+{
+  height: 80px;
+}
+.menutxt
+{
+  margin-top: 35px;
+  float: left;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+.signtxt
+{
+   
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 35px;
+  font-size: 16px;
+}
+.menustyle
+{
+  font-weight:bold;
+  display:block;
+  padding:2px;
+  border-bottom:2px solid white;
+  color:white;
+
+}
+.menustyle:hover 
+{
+  border-bottom:2px solid #04e;
+  text-decoration:none;
+  color::#04e;
+
+}
+hr
+{
+	 border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+body
+{
+	
+	background-color: #fff;
+	font-family: "微軟正黑體";
+	overflow: scroll;
+
+
+}
+
+
+#head-block
+{
+
+    height: auto;
+    padding: 1em;
+	background-color:#ABABAB;
+	line-height: 2;
+	color: black;
+    margin-bottom: 2%;
+    text-align: center;
+    margin-top: 3%;
+	background-color:#ABABAB;
+	margin-left: -12.5%;
+	width: 125%;
+}
+
+
+.profile_pic
+{
+	min-height: 240px;
+	width: 40%;
+	height: 40%;
+	margin-left: 30%;
+	border-radius: 50%;
+	z-index: 1;
+	margin-top: 25%;
+	margin-right: 0px;
+
+}
+
+.plus_icon
+{
+	z-index: -1;
+	min-height: 240px;
+	height: 35%;
+	width:40%; 
+	position: relative;
+	margin-left: -40%;
+	margin-top: 25%;
+	margin-right: 0px;
+	
+}
+.profile_pic:hover
+{
+	cursor: pointer;
+	opacity: 0.5;
+}
+.profile
+{
+	height: 400px;
+	width: 100%;
+	-webkit-column-break-before:always;
+}
+table
+{
+	font-size: 24px;
+	border-collapse: collapse;
+	line-height: 2;
+	height: 200px;
+}
+th
+{
+	text-align:left;
+	min-width: 50px;
+	background-color: lightblue;
+	width: 150px;
+	color: black;
+}
+td
+{
+	color: black;
+}
+.revise
+{
+	height: 30px;
+	width: 30px;
+	padding-right: 0%;
+	padding-top: 0%;
+	float: right;
+}
+
+.times
+{
+	height: auto;
+    padding: 1em;
+	background-color:blue;
+	line-height: 2;
+	color: black;
+    margin-bottom: 2%;
+    text-align: center;
+    margin-top: 3%;
+    height: auto;
+    clear: right;
+}
+.comment
+{
+	overflow: scroll;
+	height: auto;
+    padding: 1em;
+	background-color:green;
+	line-height: 1;
+	color: black;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    clear: right;
+
+}
+
+article
+{
+	min-height: 600px;
+	height: auto;
+    padding: 1em;
+	background-color:#B8B8B8;
+	line-height: 1.5;
+	color: white;
+    margin-bottom: 1%;
+    text-align: center;
+    clear: right;
+    position: relative;
+}
+textarea
+{
+	min-height: 500px;
+	width: 100%;
+	margin-top: 20px;
+}
+.col-md-3
+{
+	border:  black ;
+}
+.nav-link
+{
+	font-size: 20px;
+	color: white;
+}
+
+.copyright
+{
+	height: auto;
+    padding: 1cm;
+	background-color:black;
+	line-height: 2;
+	color: white;
+    margin-bottom: 2%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: -12.5%;
+    width: 125%;
+}
+#asid1
+{
+  color: white;
+  background: black;
+  clear: both;
+  height: 50px;
+}
+
+
+
+
+
+
+p
+{
+	color: black;
+}
+#tab>ul>li
+{
+list-style-type: none;
+}
+#tab>ul>li>a
+{
+  text-decoration: none;
+  font-size: 20px;
+  color: #4F4FFF;
+  font-family: '微軟正黑體';
+  font-weight:bold;
+}
+#tab>div {
+  clear:both;
+  padding:0 15px;
+  height:0;
+  overflow:scroll;
+  visibility:hidden;
+  -webkit-transition:all .4s ease-in-out;
+  -moz-transition:all .4s ease-in-out;
+  -ms-transition:all .4s ease-in-out;
+  -o-transition:all .4s ease-in-out;
+  transition:all .4s ease-in-out;
+}
+
+span:target ~ #tab > div:first-of-type {
+visibility:hidden;
+  height:0;
+  padding:0 15px;
+}
+
+ 
+/*頁籤內容顯示&第一筆*/span ~ #tab > div:first-of-type,
+#tab-1:target ~ #tab > div.tab-content-1,
+#tab-2:target ~ #tab > div.tab-content-2,
+#tab-3:target ~ #tab > div.tab-content-3{
+visibility:visible;
+  height:500px;
+  background: #fff;
+
+}
+
+span
+{
+	display: none;
+}
+.table
+{
+	margin: 30px auto;
+}
+.tab-content-2,.tab-content-3
+{
+	color: black;
+}
+
+.namebt
+{
+  color: white;
+  background-color: #0069d9;
+  text-decoration: none;
+  font-weight: 600;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Open Sans","segoe ui","microsoft jhenghei","microsoft mhei",stheititc,sans-serif;
+  border-radius: 1em;
+  width: 40%;
+
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
